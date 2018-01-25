@@ -161,7 +161,6 @@ public class MainActivity extends AppCompatActivity implements LocationListener,
     @Override
     public void onMapReady(GoogleMap googleMap) {
         aMap = googleMap;
-        onLocationChanged(startLoc);
     }
 
     public class AsyncThread extends AsyncTask<Void, Void, Void>{
